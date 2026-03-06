@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title shown on the browser tab -->
+    <title>Age Calculator Project</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Simple navigation bar -->
+    <nav>
+        <h2>My Web Project</h2>
+    </nav>
+
+    <!-- Main container -->
+    <div class="box">
+
+        <!-- Project title -->
+        <h1>Age Calculator</h1>
+
+        <!-- Description of the program -->
+        <p>This tool helps you quickly calculate your age using your birth date.</p>
+
+        <!-- Instructions section -->
+        <h3>How to Use</h3>
+        <ul>
+            <li>Enter your birth year</li>
+            <li>Enter your birth month</li>
+            <li>Enter your birth day</li>
+            <li>Click the calculate button</li>
+        </ul>
+
+        <!-- Input fields -->
+        <label>Birth Year:</label><br>
+        <input type="number" id="year" placeholder="e.g. 2008"><br>
+
+        <label>Birth Month:</label><br>
+        <input type="number" id="month" placeholder="1 - 12"><br>
+
+        <label>Birth Day:</label><br>
+        <input type="number" id="day" placeholder="1 - 31"><br><br>
+
+        <!-- Button to run JavaScript -->
+        <button onclick="calculateAge()">Calculate Age</button>
+
+        <!-- Result display -->
+        <p id="result"></p>
+
+        <!-- Extra section (HTML feature) -->
+        <h3>Fun Fact</h3>
+        <p>
+            The average human lives about 79 years. That means you will experience
+            thousands of days, memories, and birthdays in your lifetime.
+        </p>
+
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <p>Created as a Simple Web Development Project</p>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
